@@ -163,33 +163,277 @@ ul img {
 
 section li {
 	display: block;
-	margin: 20px;
+	margin: 10px;
 }
 
-figure {
-	position: relative;
-	width: 100%; 
-	margin: 0;
+
+#chile {
+    position: relative;
+    display: inline-block;
 }
 
-img {
+#chile img {
 	width: 100%;
 	height: auto;
 	display: block;
 }
 
-figcaption {
+#chile figcaption {
 	position: absolute;
-	bottom: 50%;
-	left: 50%;
-	transform: translate(-50%, 0);
-	color: var(--white);
-	text-align: center;
-	padding: 10px;
-	font-size: var(--text-size);
-	font-family: var(--body-font);
-	width: 45%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
 }
+
+#guatemala {
+    position: relative;
+    display: inline-block;
+}
+
+#guatemala img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#guatemala figcaption {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
+
+#hawaii {
+    position: relative;
+    display: inline-block;
+}
+
+#hawaii img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#hawaii figcaption {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
+
+#iran {
+    position: relative;
+    display: inline-block;
+}
+
+#iran img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#iran figcaption {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+}
+
+#ireland {
+    position: relative;
+    display: inline-block;
+}
+
+#ireland img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#ireland figcaption {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+
+}
+
+#italy {
+    position: relative;
+    display: inline-block;
+}
+
+#italy img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#italy figcaption {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+}
+
+#moab {
+    position: relative;
+    display: inline-block;
+}
+
+#moab img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#moab figcaption {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
+
+#rocky {
+    position: relative;
+    display: inline-block;
+}
+
+#rocky img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#rocky figcaption {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+}
+
+#swiss {
+    position: relative;
+    display: inline-block;
+}
+
+#swiss img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#swiss figcaption {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+}
+
+#uk {
+    position: relative;
+    display: inline-block;
+}
+
+#uk img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#uk figcaption {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+}
+
+#usa {
+    position: relative;
+    display: inline-block;
+}
+
+#usa img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#usa figcaption {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+}
+
+#wyoming {
+    position: relative;
+    display: inline-block;
+}
+
+#wyoming img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#wyoming figcaption {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-size: 1em;
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
 
 footer {
 	padding: 20px;
@@ -246,6 +490,7 @@ footer h2 {
     color: var(--white);
     font-size: 1em;
     display: flex;
+    padding-left: 10px;
   }
 
   #form button[type=submit] {
